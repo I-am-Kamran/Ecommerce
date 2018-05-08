@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "765356072549",
+    "firebase_url": "https://ecommerce-6e51f.firebaseio.com",
+    "project_id": "ecommerce-6e51f",
+    "storage_bucket": "ecommerce-6e51f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765356072549:android:5da8260337fdebf2",
+        "android_client_info": {
+          "package_name": "com.example.marvin.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765356072549-v9q7051ossvutbqagttlbm3tahikofu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marvin.ecommerce",
+            "certificate_hash": "c3891fa0ddc637d9110f4d09291af0078d34f85f"
+          }
+        },
+        {
+          "client_id": "765356072549-kjnbepodce3fta1abeesf5m78en78o6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaf6V2VaNghF1gUy51rd7QCM97tb2KdeU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765356072549-kjnbepodce3fta1abeesf5m78en78o6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

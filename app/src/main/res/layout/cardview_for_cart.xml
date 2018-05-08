@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/NameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/PriceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+           android:layout_below="@id/NameId"
+            />
+        <TextView
+            android:id="@+id/quantityId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="quantity"
+            android:layout_below="@id/PriceId"/>
+
+        <TextView
+            android:id="@+id/delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PriceId"
+            android:layout_marginTop="50dp"
+            android:text="Free delivery in 3-4 days "/>
+
+        <ImageView
+            android:id="@+id/imageCart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentRight="true"
+             />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:layout_below="@id/imageCart"
+         android:layout_toRightOf="@id/delivery"
+         android:orientation="horizontal"
+         android:gravity="center_horizontal">
+
+         <Button
+             android:id="@+id/addQunatity"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:text="+"
+             android:textStyle="bold"
+             android:layout_marginLeft="30dp"/>
+
+         <TextView
+             android:id="@+id/txtProductQuantity"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="24sp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginRight="15dp"
+             />
+
+         <Button
+             android:id="@+id/subtractQuantity"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:text="-"
+             android:textStyle="bold" />
+
+
+
+     </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/Button_moveToWhishList"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Move To whishlist"
+            android:textAllCaps="true"
+            android:textColor="#878787"
+            android:drawableLeft="@drawable/ic_favorite_black_24dp"
+            android:padding="10dp"
+
+            />
+        <Button
+            android:id="@+id/Button_ItemRemove"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/Button_moveToWhishList"
+            android:textAllCaps="true"
+            android:text="Remove"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:padding="10dp"
+            android:textColor="#878787"
+            android:layout_weight="1"
+           />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
